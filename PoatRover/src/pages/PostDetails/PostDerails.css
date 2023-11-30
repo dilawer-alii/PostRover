@@ -1,0 +1,54 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  flex-direction: column;
+  display: flex;
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color: #2196f3;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 8px 8px 0 0;
+}
+
+.post-details {
+  padding: 20px;
+}
+
+.post-details h2 {
+  color: #333;
+}
+
+.post-details p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 350px;
+  background-color: #2196f3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #1565c0;
+}
